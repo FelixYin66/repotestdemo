@@ -14,6 +14,7 @@
 		86320D811E976D5900B4F6AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86320D801E976D5900B4F6AF /* Assets.xcassets */; };
 		86320D841E976D5900B4F6AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86320D821E976D5900B4F6AF /* LaunchScreen.storyboard */; };
 		86320D8E1E976ED100B4F6AF /* UnitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86320D8D1E976ED100B4F6AF /* UnitView.m */; };
+		86320D921E97705200B4F6AF /* PictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86320D911E97705200B4F6AF /* PictureView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		86320D851E976D5900B4F6AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86320D8C1E976ED100B4F6AF /* UnitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitView.h; sourceTree = "<group>"; };
 		86320D8D1E976ED100B4F6AF /* UnitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnitView.m; sourceTree = "<group>"; };
+		86320D901E97705200B4F6AF /* PictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureView.h; sourceTree = "<group>"; };
+		86320D911E97705200B4F6AF /* PictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 		86320D731E976D5900B4F6AF /* repotestdemo */ = {
 			isa = PBXGroup;
 			children = (
+				86320D8F1E97701600B4F6AF /* Views */,
 				86320D8B1E976E9000B4F6AF /* PodClassses */,
 				86320D771E976D5900B4F6AF /* AppDelegate.h */,
 				86320D781E976D5900B4F6AF /* AppDelegate.m */,
@@ -91,6 +95,15 @@
 			);
 			name = PodClassses;
 			path = repotestdemo;
+			sourceTree = "<group>";
+		};
+		86320D8F1E97701600B4F6AF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				86320D901E97705200B4F6AF /* PictureView.h */,
+				86320D911E97705200B4F6AF /* PictureView.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +178,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86320D921E97705200B4F6AF /* PictureView.m in Sources */,
 				86320D8E1E976ED100B4F6AF /* UnitView.m in Sources */,
 				86320D7C1E976D5900B4F6AF /* ViewController.m in Sources */,
 				86320D791E976D5900B4F6AF /* AppDelegate.m in Sources */,
